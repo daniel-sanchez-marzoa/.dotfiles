@@ -17,6 +17,7 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 # stow dotfiles
 stow git
 stow nvim
+stow zsh
 
 # install neovim plugins
 nvim --headless +PlugInstall +qall
